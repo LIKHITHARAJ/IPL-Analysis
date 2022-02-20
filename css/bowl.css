@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+div.main{
+    width:500px;
+    margin:20px auto 0px auto;
+}
+h2{
+    text-align:center;
+    padding:3px;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(52, 179, 196);
+    text-shadow: lightpink;
+    text-decoration: underline;
+    text-decoration-color: rgb(44, 38, 38);
+    
+}
+div.bowler{
+    background-color: rgba(255,255,255,.4);
+    width:100%;
+    font-size: 15px;
+    border-radius: 10px;
+    border:1px solid rgb(255,255,255,0.3);
+    box-shadow:2px 2px 15px;
+    color: #fff;
+    
+}
+form#bowler{
+    margin: 15px;
+    
+}
+label{
+    font-family: cursive;
+    font-size: 17px;
+    font-style:normal;
+    font-weight: bold;
+    color:black;
+}
+input#name{
+    width:250px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline:0;
+    
+}
+

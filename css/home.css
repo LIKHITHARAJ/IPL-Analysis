@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Josefin Sans',sans-serif;
+}
+.wrapper{
+    margin:5%;
+
+}
+.wrapper h1{
+    font-family: 'allura',cursive;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color:indigo;
+    text-align: center;
+    font-weight: bold;
+    text-decoration-line:underline;
+}
+.wrapper h2{
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-style:double;
+}
+.ipl{
+    display:flex;
+    text-align: center;
+    width:auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.ipl .ipl_player{
+    background: cornsilk;
+    margin:30px;
+    margin-bottom: 50px;
+    width:400px;
+    padding:20px;
+    line-height: 20px;
+    color:green;
+    position: relative;
+
+}
+.ipl .ipl_player h3{
+    color:black;
+    font-size: 26px;
+    margin-top:50px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: cursive;
+}
+.ipl .ipl_player p.role{
+    color:brown;
+    font-size: 12px;
+    text-decoration: uppercase;
+    margin:12px 0;
+}
+.ipl .ipl_player .player_img{
+    width: 100px;
+    height: 270px;
+    border-radius: 50%;
+    transform: translateX(30%);
+
+}

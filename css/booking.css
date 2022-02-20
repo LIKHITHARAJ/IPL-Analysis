@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+div.main{
+    width:500px;
+    margin:20px auto 0px auto;
+}
+h2{
+    text-align:center;
+    padding:3px;
+    font-family: cursive;
+    font-weight: bold;
+    color: powderblue;
+    text-shadow: lightpink;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    
+}
+div.booking{
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    font-size: 15px;
+    border-radius: 10px;
+    border:1px solid rgb(255,255,255,0.3);
+    box-shadow:2px 2px 15px;
+    color: #fff;
+    
+}
+form#booking{
+    margin: 15px;
+    
+}
+label{
+    font-family: cursive;
+    font-size: 15px;
+    font-style:normal;
+    font-weight: bold;
+    color:lightgoldenrodyellow;
+}
+input#name{
+    width:250px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline:0;
+    
+}
+
+

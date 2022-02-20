@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<!-- Bootstrap CSS -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/win.css " />
+    <title>Hello, world!</title>
+      
+</head>
+<body background="/static/images/m.jpg   "style="background-size:1510px;">
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        
+              <a class="navbar-brand" href="#" style="font-size: 30px;font-weight: 500;font-weight: math;
+              color:peachpuff;text-shadow: 3px 2px 5px;">INDIAN PREMIER LEAGUE -Admin</a>
+               <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/login">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/book">BOOKING DETAILS</a>
+                    </li>
+                                      
+                </ul>
+            </div>
+        
+    </nav>
+
+<div class="wrapper" style="background-image:url('.jpg')">
+<div class="inner">
+<div class="image-holder">
+<img src="/static/images/cup.jpg " alt="image"style="height:290px;" >
+</div>
+<form action="/admin/winners" method="post">
+<h3 style="font-size: 29px;font-family: cursive;font-weight: bolder;color:darkmagenta;text-decoration-color: black;text-decoration: underline;text-decoration-style:double;"
+>WINNERS</h3>
+
+<div class="form-wrapper">
+<input type="text" name="season"placeholder="season" class="form-control" required>
+  </div>
+
+    <div class="form-wrapper">
+    <input type="text" name="date" placeholder="date" class="form-control" required> 
+  </div>
+
+  <div class="form-wrapper">
+    <input type="text" name="teams"placeholder="teams" class="form-control" required> 
+  </div>
+
+  <div class="form-wrapper">
+    <input type="text" name="umpire"placeholder="umpire" class="form-control" required> 
+  </div>
+ 
+  <div class="form-wrapper">
+    <input type="text" name="runs" placeholder="runs" class="form-control" required> 
+  </div>
+
+<div class="form-wrapper">
+<select name="won" id="won" class="form-control" required>
+<option value="" disabled selected>won</option>
+<option value="RCB">RCB</option>
+<option value="KKR">KKR</option>
+<option value="CSK">CSK</option>
+<option value="KXIP">KXIP</option>
+<option value="MI">MI</option>
+<option value="RR">RR</option>
+<option value="DC">DC</option>
+<option value="SRH">SRH</option>
+<option value="DD">DD</option>
+<option value="RPS">RPS</option>
+
+</select>
+</div>
+
+<div class="form-wrapper">
+    <select name="lost" id="lost" class="form-control"required>
+    <option value="" disabled selected>lost</option>
+    <option value="RCB">RCB</option>
+    <option value="KKR">KKR</option>
+    <option value="CSK">CSK</option>
+    <option value="KXIP">KXIP</option>
+    <option value="MI">MI</option>
+    <option value="RR">RR</option>
+    <option value="DC">DC</option>
+    <option value="SRH">SRH</option>
+    <option value="DD">DD</option>
+    <option value="RPS">RPS</option>
+    </select>
+</div>
+    
+<div class="form-wrapper">
+<input type="text" name="venue"placeholder="venue" class="form-control"required> 
+</div>
+
+
+<button type="submit" style="width:70px;height:40px;margin-top:15px;background: darkgreen;font-size: 14px;
+               font-weight: bold;color: azure;margin-bottom: 5px;cursor:pointer;align-items: center;
+               justify-content: center;">SUBMIT</button>
+<button type="reset" style="width:70px;height:40px;margin-top:15px;background: darkgoldenrod;font-size: 14px;
+font-weight: bold;color: azure;margin-bottom: 5px;cursor:pointer;align-items: center;
+justify-content: center;"    >CLEAR</button>
+</form>
+
+
+</div>
+</div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+
+
+
+</body>
+</html>

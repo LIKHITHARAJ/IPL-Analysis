@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="/static/css/payment.css " />
+<title>Hello, world!</title>   
+    
+</head>
+ <body background="/static/images/imgsta.jpg" style="background-size: 1360px;">
+   <div class="container" style="width:550px;height:450px ;">
+       <h1 style="font-family: emoji;font-size: 40px;font-weight: bold;color:indigo;text-shadow: 3px 2px 5px;
+       text-decoration:underline;text-decoration-color: black;">PAYMENT MODE</h1>
+       <div class="first-row">
+           <div class="owner">
+               <h3>OWNER</h3>
+               <div class="input-field">
+                   <input type="text" name="owner" placeholder="xxxxxxxx"  required>
+               </div>
+           </div>
+            <div class="cvv">
+                <h3>CVV</h3>
+                <div class="input-field">
+                    <input type="password"  name="cvv" placeholder="xxx" maxlength="3" required>
+                </div>
+            </div> 
+       </div> 
+            <div class="second-row">
+                <div class="card-number">
+                    <h3>Card Number</h3>
+                    <div class="input-field">
+                        <input type="text"   name="card-number" placeholder="xxxxxxxxxxxxxx"  required>
+                    </div>
+                </div> 
+            </div>     
+                <div class="third-row">
+                        <h3>Expiration Date</h3>
+                        <div class="selection">
+                            <div class="date">
+                                <select name="months" id="months">
+                                    <option value="Jan">Jan</option>
+                                    <option value="Feb">Feb</option>
+                                    <option value="March">March</option>  
+                                    <option value="April">April</option>                                                                                                       
+                                    <option value="May">May</option>
+                                    <option value="June">June</option>
+                                    <option value="July">July</option>  
+                                    <option value="August">August</option>                                                                                                       
+                                    <option value="Sep">Sep</option>
+                                    <option value="Oct">Oct</option>
+                                    <option value="Nov">Nov</option>  
+                                    <option value="Dec">Dec</option>                                                                                                       
+                               </select>
+                               <select name="years" id="years">
+                                   <option value="2021">2025</option>
+                                   <option value="2020">2024</option>
+                                   <option value="2023">2023</option>  
+                                   <option value="2022">2022</option>                                                                                                       
+                                   <option value="2021">2021</option>
+                                   <option value="2020">2020</option>
+                                   <option value="2019">2019</option>  
+                                   <option value="2018">2018</option>                                                                                                       
+                                   <option value="2017">2017</option>
+                                   <option value="2016">2016</option>
+                                   <option value="2015">2015</option>  
+                                                                                                                                   
+                               </select>                             
+                            </div>
+                            <div class="cards">
+                                <img src=" /static/images/mc.png     " alt="" >
+                                <img src="/static/images/vi.png     " alt="" > 
+                                <img src="/static/images/pp.png     " alt="" >                                                             
+                            </div>
+                       </div>                               
+                </div>
+            <a href="">CONFIRM</a>
+   </div>
+</body>
+</html>
